@@ -12,5 +12,6 @@ let count = 10;
 
     console.log(nm, count, arr[1], obj.nm, obj.arr[2] );
 
-    
+
+    console.log(nm, count + obj.count );
  

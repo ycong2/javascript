@@ -10,3 +10,11 @@ let num = 10;
     console.log(typeof num);
     num = parseInt(num)
     console.log(typeof num);
+
+    num += 490;
+    num +="원"
+    //1000원
+    console.log(num)
+
+    num += 490 + "원";
+    console.log(num)
